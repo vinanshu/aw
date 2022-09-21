@@ -1,0 +1,67 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ins {
+    cursor: pointer;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(86, 4, 240);
+    border-collapse: collapse;
+}
+
+th,
+td {
+    background-color: black;
+}
+
+.family-button {
+    cursor: pointer;
+    border-style: none;
+    margin-left: 150px;
+    font-size: 50px;
+    color: black;
+    background-color: white;
+}
+
+.family-button :hover {
+    color: aqua;
+}
+
+.facebook-button {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border-color: white;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+}
+
+
+.facebook-button:hover {
+    background-color: aqua;
+}
+
+.facebook-button:active {
+    background-color: black;
+}
+
+.TikTok-button {
+    background-color: black;
+    color: rgb(16, 71, 221);
+    border-color: white;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+}
